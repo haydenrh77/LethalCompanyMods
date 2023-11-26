@@ -1,0 +1,75 @@
+[Message:   BepInEx] BepInEx 5.4.21.0 - Lethal Company (11/23/2023 9:01:25 PM)
+[Info   :   BepInEx] Running under Unity v2022.3.9.15351836
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+[Info   :   BepInEx] Supports SRE: True
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.21.0]
+[Info   :   BepInEx] 1 patcher plugin loaded
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 1 plugins to load
+[Info   :   BepInEx] Loading [MoreCompany 1.4.1]
+[Info   :MoreCompany] Loaded cosmetic: builtin.denimhat from bundle: 
+[Info   :MoreCompany] Loaded cosmetic: builtin.fancyglasses from bundle: 
+[Info   :MoreCompany] Loaded cosmetic: builtin.kittyears from bundle: 
+[Info   :MoreCompany] Loaded cosmetic: builtin.eyeballs from bundle: 
+[Info   :MoreCompany] Loaded cosmetic: builtin.santahat from bundle: 
+[Info   :MoreCompany] Loaded cosmetic: builtin.3dglasses from bundle: 
+[Info   :MoreCompany] Loaded cosmetic: builtin.flushedmanhead from bundle: 
+[Info   :MoreCompany] Loaded cosmetic: builtin.gunholster from bundle: 
+[Info   :MoreCompany] Loaded cosmetic: builtin.partyglasses from bundle: 
+[Info   :MoreCompany] Loaded cosmetic: builtin.partyhat from bundle: 
+[Info   :MoreCompany] Loaded cosmetic: builtin.tophat from bundle: 
+[Info   :MoreCompany] Loaded cosmetic: builtin.watch from bundle: 
+[Message:   BepInEx] Chainloader startup complete
+[Info   : Unity Log] Changing gamma
+[Info   : Unity Log] override float value: 0
+[Info   : Unity Log] Overriding float
+[Info   : Unity Log] Gamma changed
+[Info   : Unity Log] Set gamma to new value: 0; (0.00, 0.00, 0.00, 0.00) (True)
+[Info   : Unity Log] Saving changed settings
+[Info   : Unity Log] Changing gamma
+[Info   : Unity Log] override float value: 0
+[Info   : Unity Log] Overriding float
+[Info   : Unity Log] Gamma changed
+[Info   : Unity Log] Set gamma to new value: 0; (0.00, 0.00, 0.00, 0.00) (True)
+[Info   : Unity Log] subcribing to steam callbacks
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+MoreCompany.MenuManagerLogoOverridePatch.Postfix (MenuManager __instance) (at <d5bf177559dc4b70b9f919f46304d515>:0)
+(wrapper dynamic-method) MenuManager.DMD<MenuManager::Awake>(MenuManager)
+
+[Info   : Unity Log] Changing gamma
+[Info   : Unity Log] override float value: 0
+[Info   : Unity Log] Overriding float
+[Info   : Unity Log] Gamma changed
+[Info   : Unity Log] Set gamma to new value: 0; (0.00, 0.00, 0.00, 0.00) (True)
+[Info   : Unity Log] [FacepunchTransport] - Initialized access to Steam Relay Network.
+[Info   : Unity Log] [FacepunchTransport] - Fetched user Steam ID.
+[Info   : Unity Log] Set version num
+[Info   : Unity Log] Changing gamma
+[Info   : Unity Log] override float value: 0
+[Info   : Unity Log] Overriding float
+[Info   : Unity Log] Gamma changed
+[Info   : Unity Log] Set gamma to new value: 0; (0.00, 0.00, 0.00, 0.00) (True)
+[Info   : Unity Log] T
+[Info   : Unity Log] [Dissonance:Core] (02:55:08.262) DissonanceComms: Loading default playback prefab
+[Info   : Unity Log] [Dissonance:Core] (02:55:08.275) DissonanceComms: Starting Dissonance Voice Comms (8.0.4)
+- Network: [DissonanceSetup (Dissonance.Integrations.Unity_NFGO.NfgoCommsNetwork)]
+- Quality Settings: [Quality: Medium, FrameSize: Small, FEC: True, DenoiseAmount: Moderate, RNN: False (0.65) VoiceDuckLevel: 1 VAD: MediumSensitivity]
+- Codec: [Codec: Opus, FrameSize: 960, SampleRate: 48kHz]
+[Info   : Unity Log] [Netcode] ShutdownInternal
+[Info   : Unity Log] Leaving current lobby
+[Info   : Unity Log] Disconnecting and setting networkobjects to destroy with owner
+[Info   : Unity Log] Server is not active; quitting to main menu
+[Info   : Unity Log] Set version num
+[Info   : Unity Log] Changing gamma
+[Info   : Unity Log] override float value: 0
+[Info   : Unity Log] Overriding float
+[Info   : Unity Log] Gamma changed
+[Info   : Unity Log] Set gamma to new value: 0; (0.00, 0.00, 0.00, 0.00) (True)
+[Info   : Unity Log] T
+[Info   : Unity Log] unsubscribing from steam callbacks
