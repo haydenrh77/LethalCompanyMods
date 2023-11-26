@@ -18,7 +18,7 @@ if not exist "PortableGit\" (
 .\PortableGit\bin\git.exe pull origin main
 powershell "start downloadMods.bat"
 timeout /t 5 /nobreak >nul
-del downloadMods.bat
+rem del downloadMods.bat
 
 pause
 endlocal
