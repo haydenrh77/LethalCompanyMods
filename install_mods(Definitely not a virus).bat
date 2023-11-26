@@ -14,7 +14,8 @@ if not exist "PortableGit\" (
 )
 
 
-
+.\PortableGit\bin\git.exe fetch --all
+.\PortableGit\bin\git.exe reset --hard origin/main
 .\PortableGit\bin\git.exe pull origin main
 rem powershell "start downloadMods.bat"
 rem timeout /t 5 /nobreak >nul
