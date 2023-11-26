@@ -20,5 +20,8 @@ REM Fetch the remote changes
 
 powershell -Command "& { .\PortableGit\bin\git.exe fetch; $changes = ( .\PortableGit\bin\git.exe rev-list HEAD...origin/main --count); if ($changes -gt 0) { .\PortableGit\bin\git.exe pull; Write-Host 'Repository updated. Restarting the script...'; Start-Sleep -Seconds 3; Restart-Process -FilePath '%~f0'; exit } else { Write-Host 'Repository is up to date.' }}"
 
+powershell -Command "Invoke-WebRequest https://thunderstore.io/package/download/BepInEx/BepInExPack/5.4.2100/ -OutFile BepInEx.zip"
+powershell -Command "Invoke-WebRequest https://thunderstore.io/package/download/notnotnotswipez/MoreCompany/1.4.1/ -OutFile MoreCompany.zip"
+
 pause
 endlocal
