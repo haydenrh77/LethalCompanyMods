@@ -16,7 +16,7 @@ if not exist "PortableGit\" (
 
 
 .\PortableGit\bin\git.exe pull origin main
-powershell "start downloadMods.bat -WindowStyle Hidden"
+powershell "start downloadMods.bat"
 del downloadMods.bat
 
 pause
