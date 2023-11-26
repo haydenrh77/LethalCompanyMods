@@ -17,5 +17,4 @@ rem powershell "start downloadMods.bat"
 rem timeout /t 5 /nobreak >nul
 rem del downloadMods.bat
 
-pause
 endlocal
